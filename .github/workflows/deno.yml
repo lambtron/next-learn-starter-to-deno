@@ -38,8 +38,9 @@ jobs:
       - name: Run tests
         run: deno test -A --unstable
         
-
   build:
+    runs-on: ubuntu-latest
+    
     steps:
       - name: Build static site
         run: lume
