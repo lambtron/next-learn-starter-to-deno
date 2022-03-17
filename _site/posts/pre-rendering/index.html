@@ -1,0 +1,12 @@
+<html><head><link href="/styles/global.css" rel="stylesheet"/><link href="/styles/layout.module.css" rel="stylesheet"/><link href="/styles/utils.module.css" rel="stylesheet"/><link rel="icon" href="/favicon.ico"/><meta name="description" content="Learn how to build a personal website using Next.js"/><meta property="og:image" content=""/><meta name="og:title" content="Next.js Sample Website"/><meta name="twitter:card" content="summary_large_image"/></head><body><div class="container"><header class="header"><a href="/"><img src="/images/profile.jpg" class="borderCircle" height="108" width="108" alt="Shu Uesugi"/></a><h2 class="headingLg"><a href="/" class="colorInherit">Shu Uesugi</a></h2></header><main><head><title>Two Forms of Pre-rendering</title><link href="/styles/utils.module.css" rel="stylesheet"/></head><article><h1 class="headingXl">Two Forms of Pre-rendering</h1><div class="lightText"><time dateTime="2020-01-01T00:00:00.000Z">December 31, 2019</time></div><div><div><p>Next.js has two forms of pre-rendering: <strong>Static Generation</strong> and <strong>Server-side
+Rendering</strong>. The difference is in <strong>when</strong> it generates the HTML for a page.</p>
+<ul>
+<li><strong>Static Generation</strong> is the pre-rendering method that generates the HTML at
+<strong>build time</strong>. The pre-rendered HTML is then <em>reused</em> on each request.</li>
+<li><strong>Server-side Rendering</strong> is the pre-rendering method that generates the HTML
+on <strong>each request</strong>.</li>
+</ul>
+<p>Importantly, Next.js lets you <strong>choose</strong> which pre-rendering form to use for
+each page. You can create a &quot;hybrid&quot; Next.js app by using Static Generation for
+most pages and using Server-side Rendering for others.</p>
+</div></div></article></main><div class="backToHome"><a href="/">← Back to home</a></div></div></body></html>

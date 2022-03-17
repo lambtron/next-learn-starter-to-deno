@@ -25,6 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 
 ### Added the below for deno/lume project.
-
-# Lume.
-_site
