@@ -35,12 +35,12 @@ jobs:
       - name: Run linter
         run: deno lint
 
-      - name: Run tests
-        run: deno test -A --unstable
-        
+      # - name: Run tests
+      #   run: deno test -A --unstable
+
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Build static site
         run: lume
